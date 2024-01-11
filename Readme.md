@@ -48,10 +48,10 @@ private static void Node_DataReceived(object? sender, DataReceiveEventArgs e)
                 {
                     Console.WriteLine(DeviceLookup.GetDeviceString(device));
                 }
-		else
-		{
-		    Console.WriteLine("invalid reply");
-		}
+                else
+                {
+                    Console.WriteLine("invalid reply");
+                }
             }
         }
     }
