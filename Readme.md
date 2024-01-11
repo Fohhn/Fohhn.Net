@@ -9,8 +9,8 @@ Simple C# 12 .NET 8.0 based functions for Fohhn-Net communication.
   - [License](#license)
 
 ## Requirements
-Installed .NET 8.0 SDK.
-Add Fohhn.Net.Core, Fohhn.Net.Devices and Fohhn.Net.IP or Fohhn.Net.Ports to your .NET project.
+- Installed .NET 8.0 SDK.
+- Add Fohhn.Net.Core, Fohhn.Net.Devices and Fohhn.Net.IP or Fohhn.Net.Ports to your .NET project.
 
 ### Using COM Port on Windows
 Go to device manager and activate **Load VCP** (Virtual COM Port) in the properties of the Fohhn USB device that is displayed as **USB Serial Converter**.
@@ -45,16 +45,16 @@ private static void Node_DataReceived(object? sender, DataReceiveEventArgs e)
                 ushort device = 0;
                 byte[] version = [0, 0, 0];
                 if(Info.ParseReadBack(replyDecoder.Data, ref device, ref version))
-				{
+                {
                     Console.WriteLine(DeviceLookup.GetDeviceString(device));
-			    }
-				else
-				{
-				    Console.WriteLine("invalid reply");
-				}
+                }
+		else
+		{
+		    Console.WriteLine("invalid reply");
+		}
             }
         }
-	}
+    }
 }
 ```
 
