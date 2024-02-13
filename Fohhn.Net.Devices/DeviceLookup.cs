@@ -24,7 +24,7 @@ namespace Fohhn.Net.Devices
                 case DeviceConstants.DeviceAM50: return "AM-50";
                 case DeviceConstants.DeviceAS06ASX: return "AS-06 ASX";
                 case DeviceConstants.DeviceAS10ASX: return "AX-10 ASX";
-                case DeviceConstants.DeviceAS108: return "AS-108";
+                case DeviceConstants.DeviceAS206: return "AS-206";
                 case DeviceConstants.DeviceAS112: return "AS-112";
                 case DeviceConstants.DeviceAS115: return "AS-115";
                 case DeviceConstants.DeviceAS22ASX: return "AS-22 ASX";
@@ -115,7 +115,7 @@ namespace Fohhn.Net.Devices
                 case DeviceConstants.DeviceAM50: return 0;
                 case DeviceConstants.DeviceAS06ASX: return 1;
                 case DeviceConstants.DeviceAS10ASX: return 1;
-                case DeviceConstants.DeviceAS108: return 1;
+                case DeviceConstants.DeviceAS206: return 1;
                 case DeviceConstants.DeviceAS112: return 1;
                 case DeviceConstants.DeviceAS115: return 1;
                 case DeviceConstants.DeviceAS22ASX: return 1;
@@ -204,7 +204,7 @@ namespace Fohhn.Net.Devices
                 case DeviceConstants.DeviceAM50: return 0;
                 case DeviceConstants.DeviceAS06ASX: return 0;
                 case DeviceConstants.DeviceAS10ASX: return 0;
-                case DeviceConstants.DeviceAS108: return 2;
+                case DeviceConstants.DeviceAS206: return 2;
                 case DeviceConstants.DeviceAS112: return 2;
                 case DeviceConstants.DeviceAS115: return 2;
                 case DeviceConstants.DeviceAS22ASX: return 0;
@@ -308,7 +308,7 @@ namespace Fohhn.Net.Devices
                 case DeviceConstants.DeviceAM50: return 0;
                 case DeviceConstants.DeviceAS06ASX: return ReturnOutputChannel(device, channel, true);
                 case DeviceConstants.DeviceAS10ASX: return ReturnOutputChannel(device, channel, true);
-                case DeviceConstants.DeviceAS108: return ReturnOutputChannel(device, channel);
+                case DeviceConstants.DeviceAS206: return ReturnOutputChannel(device, channel);
                 case DeviceConstants.DeviceAS112: return ReturnOutputChannel(device, channel);
                 case DeviceConstants.DeviceAS115: return ReturnOutputChannel(device, channel);
                 case DeviceConstants.DeviceAS22ASX: return ReturnOutputChannel(device, channel, true);
@@ -405,7 +405,7 @@ namespace Fohhn.Net.Devices
                 case DeviceConstants.DeviceAM50: return 0;
                 case DeviceConstants.DeviceAS06ASX: return 0;
                 case DeviceConstants.DeviceAS10ASX: return 0;
-                case DeviceConstants.DeviceAS108: return ReturnInputChannel(device, channel);
+                case DeviceConstants.DeviceAS206: return ReturnInputChannel(device, channel);
                 case DeviceConstants.DeviceAS112: return ReturnInputChannel(device, channel);
                 case DeviceConstants.DeviceAS115: return ReturnInputChannel(device, channel);
                 case DeviceConstants.DeviceAS22ASX: return 0;
