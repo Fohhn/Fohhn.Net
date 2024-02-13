@@ -23,7 +23,7 @@ namespace Fohhn.Net.Devices
         public const ushort DeviceAM50 = 0x0B60 & MaskDevice;
         public const ushort DeviceAS06ASX = 0x0BA0 & MaskDevice;
         public const ushort DeviceAS10ASX = 0x0B90 & MaskDevice;
-        public const ushort DeviceAS108 = 0x0E00 & MaskDevice;
+        public const ushort DeviceAS206 = 0x0E00 & MaskDevice;
         public const ushort DeviceAS112 = 0x0E10 & MaskDevice;
         public const ushort DeviceAS115 = 0x0E20 & MaskDevice;
         public const ushort DeviceAS22ASX = 0x0B80 & MaskDevice;
