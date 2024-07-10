@@ -10,7 +10,6 @@ namespace Fohhn.Net.Core
     {
         public static byte[] BuildReadCmd(byte id)
         {
-            byte[] data = [Commands.Volume];
             return Command.Encode(id, Commands.ReadControls, 1, 0, [0]);
         }
 
