@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright 2024 Fohhn
  *
  * licensed under the MIT License, see LICENSE for more information
@@ -39,9 +39,13 @@ namespace Fohhn.Net.IP
                 {
                     receivedBytes = udpClient.Receive(ref local);
                 }
-                catch { }
+                catch
+                {
+                    receivedBytes = null;
+                }
 
-                OnDataReceived(receivedBytes);
+                if (receivedBytes != null)
+                    OnDataReceived(receivedBytes);
             }
 
             udpClient?.Close();
