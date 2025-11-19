@@ -1,5 +1,5 @@
 # Fohhn.Net
-Simple C# 12 .NET 8.0 based functions for Fohhn-Net communication.
+Simple C# 12 .NET 10.0 based functions for Fohhn-Net communication.
 
 ## Table of contents
 - [Fohhn.Net](#fohhn.net)
@@ -9,7 +9,7 @@ Simple C# 12 .NET 8.0 based functions for Fohhn-Net communication.
   - [License](#license)
 
 ## Requirements
-- Installed .NET 8.0 SDK.
+- Installed .NET 10.0 SDK.
 - Add Fohhn.Net.Core, Fohhn.Net.Devices and Fohhn.Net.IP or Fohhn.Net.Ports to your .NET project.
 
 ### Using COM Port on Windows
